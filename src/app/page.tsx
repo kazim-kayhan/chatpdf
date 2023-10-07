@@ -18,7 +18,7 @@ export default function Home() {
         ChatPDF allows you to have conversation with your documents. Just upload
         your document and start chatting with it.
       </div>
-      <Link href="/dashboard" target="_blank">
+      <Link href="/dashboard" target="_blank" className="whitespace-nowrap">
         Get started <ArrowRight className="ml-2"/>
       </Link>
     </MaxWidthWrapper>
